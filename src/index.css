@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family:'Space Grotesk';
+        font-weight: 500;
+        src: url('/src/assets/fonts/SpaceGrotesk-VariableFont_wght.ttf');
+    }
+    html {
+        font-family: 'Space Grotesk';
+    }
+  }
+
+@layer components {
+
+    .visuallyhidden {
+
+        @apply absolute -left-[10000px] top-auto w-px h-px overflow-hidden;
+
+    }
+    .wrapper {
+        @apply w-[calc(100%-2rem)] tablet:w-[calc(100%-3.75rem)] max-w-[69.375rem] ms-auto me-auto;
+    }
+    .underline-link {
+        @apply inline-block border-b-2 border-greenAccent pb-[0.625em] hover:text-greenAccent transition-colors duration-200
+    }
+
+    /* .skills__item {
+        @apply text-center
+    }
+    .skills__title {
+        font-size: 2rem;
+        font-size: clamp(2rem, 0.33rem + 7.11vw, 3rem);
+        line-height: 1.17;
+        margin-block-end: 2px;
+    } */
+    
+
+
+
+
+    /* Projects Section */
+
+
+    .projects__item {
+        @apply col-span-2 tablet:col-span-1 laptop:grid laptop:grid-cols-1 laptop:auto-rows-auto
+    }
+
+    .projects__picture {
+        @apply block mb-[20px] laptop:col-start-1 laptop:col-end-2 laptop:row-start-1 laptop:row-end-2 laptop:relative laptop:after:absolute laptop:after:w-full laptop:after:h-full laptop:after:bg-black laptop:after:top-0 laptop:after:opacity-0 laptop:after:transition-opacity laptop:group-hover/picture:after:opacity-60 laptop:group-hover/picture:after:transition-opacity laptop:group-focus-within/picture:after:opacity-60 laptop:group-focus-within/picture:after:transition-opacity
+    }
+
+    .projects__image {
+        @apply w-full h-auto
+    }
+
+    .projects__name {
+        @apply uppercase text-fs24 leading-[1.33] mb-[7px] font-bold
+    }
+
+    .projects__tags {
+        @apply flex text-grayText2 text-fs18 leading-[1.56] gap-x-[18px] mb-[20px] laptop:mb-0
+    }
+
+    .projects__links {
+        @apply flex uppercase text-fs16 leading-[26px] tracking-[2.29px]  gap-x-[30px] laptop:col-start-1 laptop:col-end-2 laptop:row-start-1 laptop:row-end-2 laptop:justify-self-center laptop:self-center laptop:z-10 laptop:opacity-0 laptop:group-hover/picture:opacity-100 laptop:group-hover/picture:after:transition-opacity laptop:group-hover/picture:after:duration-300 laptop:group-focus-within/picture:opacity-100 laptop:group-focus-within/picture:after:transition-opacity laptop:group-focus-within/picture:after:duration-300
+    }
+
+}

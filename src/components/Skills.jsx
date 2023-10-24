@@ -30,7 +30,7 @@ const Skills = () => {
         </div>
         <img
           className="skills__rings absolute bottom-0 left-1/2 translate-y-1/2 tablet:translate-x-1/3 laptop:left-full laptop:-translate-x-1/3"
-          src="/src/assets/images/pattern-rings.svg"
+          src="/images/pattern-rings.svg"
           alt=""
           width="530"
           height="129"

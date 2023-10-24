@@ -27,7 +27,7 @@ const Contact = () => {
               className="w-full pl-[24px] pb-[16px]  border-b-[1px] border-whiteMainText bg-transparent outline-none peer focus-visible:invalid:border-red-600 valid:border-greenAccent placeholder:text-whiteMainText placeholder:opacity-50 placeholder:uppercase text-fs16 leading-[1.625] -tracking-[0.22px] "
             />
             <img
-                src="/src/assets/images/icon-invalid.svg"
+                src="/images/icon-invalid.svg"
                 alt=""
                 className="contact__invalid-icon h-[1.5rem] w-[1.5rem] absolute top-0 right-0 hidden peer-focus-visible:peer-invalid:inline-block"
                 width="24"
@@ -47,7 +47,7 @@ const Contact = () => {
               className="w-full pl-[24px] pb-[16px]  border-b-[1px] border-whiteMainText bg-transparent outline-none peer focus-visible:invalid:border-red-600 valid:border-greenAccent placeholder:text-whiteMainText placeholder:opacity-50 placeholder:uppercase text-fs16 leading-[1.625] -tracking-[0.22px]"
             />
             <img
-                src="/src/assets/images/icon-invalid.svg"
+                src="/images/icon-invalid.svg"
                 alt=""
                 className="contact__invalid-icon h-[1.5rem] w-[1.5rem] absolute top-0 right-0 hidden peer-focus-visible:peer-invalid:inline-block"
                 width="24"
@@ -68,7 +68,7 @@ const Contact = () => {
               className="w-full pl-[24px] pb-[16px]  border-b-[1px] border-whiteMainText bg-transparent outline-none peer focus-visible:invalid:border-red-600 valid:border-greenAccent placeholder:text-whiteMainText placeholder:opacity-50 placeholder:uppercase text-fs16 leading-[1.625] -tracking-[0.22px]"
             ></textarea>
             <img
-                src="/src/assets/images/icon-invalid.svg"
+                src="/images/icon-invalid.svg"
                 alt=""
                 className="contact__invalid-icon h-[1.5rem] w-[1.5rem] absolute top-0 right-0 hidden peer-focus-visible:peer-invalid:inline-block"
                 width="24"
@@ -82,7 +82,7 @@ const Contact = () => {
       </div>
       <img
         className="contact__rings absolute bottom-0 -translate-x-2/3 -translate-y-full laptop:-translate-x-[40%]"
-        src="/src/assets/images/pattern-rings.svg"
+        src="/images/pattern-rings.svg"
         alt=""
         width="530"
         height="129"

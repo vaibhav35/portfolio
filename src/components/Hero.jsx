@@ -12,19 +12,19 @@ const Hero = () => {
           <picture className="order-2">
             <source
               media="(min-width: 73.125em)"
-              srcSet="/src/assets/images/image-profile-desktop.webp"
+              srcSet="/images/image-profile-desktop.webp"
               width="445"
               height="720"
             />
             <source
               media="(min-width: 48em)"
-              srcSet="/src/assets/images/image-profile-tablet.webp"
+              srcSet="/images/image-profile-tablet.webp"
               width="322"
               height="600"
             />
             <img
               className="absolute left-1/2 -translate-x-1/2 top-0 tablet:left-auto right-0 tablet:translate-x-0 laptop:right-[calc(calc(100%_-_69.375em)_/_2)]"
-              src="/src/assets/images/image-profile-mobile.webp"
+              src="/images/image-profile-mobile.webp"
               alt="picture of Adam Keyes"
               width="174"
               height="383"
@@ -32,14 +32,14 @@ const Hero = () => {
           </picture>
           <img
             className="absolute right-1/2 top-[124px] -z-10 tablet:right-auto tablet:left-0 tablet:top-[86px] tablet:-translate-x-1/2 laptop:left-[calc(calc(100%_-_69.375em)_/_2)] laptop:top-[133px]"
-            src="/src/assets/images/pattern-rings.svg"
+            src="/images/pattern-rings.svg"
             alt=""
             width="530"
             height="129"
           />
           <img
             className="absolute right-0 top-[calc(383px-129px)] translate-x-1/2 tablet:top-[calc(600px-129px)] tablet:z-10 laptop:top-[521px] laptop:right-[calc(calc(calc(100%_-_69.375em)_/_2)_+_445px)]"
-            src="/src/assets/images/pattern-circle.svg"
+            src="/images/pattern-circle.svg"
             alt=""
             width="129"
             height="129"

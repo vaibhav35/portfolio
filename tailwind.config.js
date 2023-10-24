@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'icon-invalid': "url('/src/assets/images/icon-invalid.svg')",
+        'icon-invalid': "url('/images/icon-invalid.svg')",
         
       },
       colors: {
